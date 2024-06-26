@@ -1,13 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import React from 'react'; // Import de React
+import ReactDOM from 'react-dom/client'; // Import de ReactDOM para la manipulación del DOM
+import './index.css'; // Styles
+import App from './App'; // Import funcion App del archivo App.js
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+root.render( // Metodo que recibe el html e inyecta el código en el index.html de public
   <React.StrictMode>
-    <App />
+    <App /> {/*Contenido de la función pasado al html*/}
   </React.StrictMode>
 );
 
