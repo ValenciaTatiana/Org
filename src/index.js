@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( // Metodo que recibe el html e inyecta el código en el index.html de public
-  <React.StrictMode>
+  <React.StrictMode> {/* Es un componente en React que activa verificaciones y advertencias adicionales para los componentes hijos.*/}
     <App /> {/*Contenido de la función pasado al html*/}
   </React.StrictMode>
 );
