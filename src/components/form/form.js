@@ -5,12 +5,14 @@ import DropDow from '../dropDow';
 import ButtonFrom from '../buttonFrom';
 
 // El componente tambien se puede crear con un ArrowFunction
-const Form = () => {
+const Form = (props) => {
 
     const [ nombre, actualizarNombre ] = useState("");
     const [ puesto, actualizarPuesto ] = useState("");
     const [ foto, actualizarFoto ] = useState("");
     const [ equipo, actualizarEquipo ] = useState("");
+
+    const { registrarColaborador } = props;
 
     // Escuhar el submit y evitar el comportamiento por defecto
     const manejarEnvio = (e) => {
@@ -22,7 +24,7 @@ const Form = () => {
             foto: foto,
             equipo: equipo,
         }
-        console.log(datosAEnviar);
+        registrarColaborador(datosAEnviar);
     }
     return <section className="container-form">
         <form onSubmit = {manejarEnvio}> {/* onSubmit es un controlador de eventos */}
@@ -33,7 +35,7 @@ const Form = () => {
             valor={puesto} actualizarValor={actualizarPuesto}/>
             <CampoForm titulo="Foto" placeholder="Ingresar el enlace de la Foto" required 
             valor={foto} actualizarValor={actualizarFoto}/>
-            <DropDow valor={equipo} actualizarEquipo={actualizarEquipo} />
+            <DropDow valor={equipo} actualizarEquipo={actualizarEquipo} equipos={props.equipos} />
             <ButtonFrom texto="Crear Colaborador"/>
         </form>
     </section>
