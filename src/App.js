@@ -4,6 +4,7 @@ import Header from './components/header/header';
 import Form from './components/form/form';
 import MiOrg from './components/buttonMiOrg';
 import Equipo from "./components/equipo";
+import Footer from "./components/footer";
 
 function App() {
 
@@ -72,6 +73,7 @@ function App() {
           colaboradores={colaboradores.filter( colaborador => colaborador.equipo === equipo.titulo)} /> // Cuando se usa map siempre se usa el key, nos sirve como refecrencia
         })
       }
+      <Footer />
     </div>
   );
 }
