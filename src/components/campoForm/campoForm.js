@@ -5,14 +5,17 @@ function CampoForm (props) {
 
     const [ valor, actualizarValor ] = useState("");
 
+    const { type = "text" } = props
+
     const manejarCambio = (e) => {
         console.log(e.target.value);
         props.actualizarValor(e.target.value);
     }
-    return <div className="campo-from">
+
+    return <div className={`campo campo-${type}`}>
         <label for="nombre">{props.titulo}</label>
             <input type="text" placeholder={props.placeholder} required={props.required} 
-            id="nombre" value={props.valor} onChange={manejarCambio}></input>
+            id="nombre" value={props.valor} onChange={manejarCambio} type={type} ></input>
     </div>
 }
 

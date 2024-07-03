@@ -120,11 +120,15 @@ function App() {
     actualizarEquipos(equiposActualizados)
   }
 
+  const crearEquipo = (nuevoEquipo) => {
+    actualizarEquipos([...equipos, {...nuevoEquipo, id: uuid()}])
+  }
+
   return (
     <div>
       <Header />
       { mostrarFormulario === true ? <Form equipos={equipos.map((equipo) => equipo.titulo)} 
-      registrarColaborador={registrarColaborador} /> : <div></div>}
+      registrarColaborador={registrarColaborador} crearEquipo={crearEquipo} /> : <div></div>}
       <MiOrg cambiarEstadoFormulario={cambiarEstadoFormulario} />
       {
         equipos.map( (equipo) => {
