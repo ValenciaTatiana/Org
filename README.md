@@ -1,72 +1,33 @@
-# Getting Started with Create React App
+# Org 💻​🧑‍💻​
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+>‼️El presente proyecto forma parte de la realización de los cursos <em>REACT: DESARROLLANDO CONJAVASCRIPT y REACT: COMO LOS COMPONENTESFUNCIONAN - Alura</em>. Este curso tiene como objetivo dominar React.js. A lo largo del curso, se abordan los fundamentos de esta tecnologia y se enseña cómo crear un sitio web completo y dinámico desde el inicio hasta la implementación final con conceptos basicos de React.
 
-## Available Scripts
+## Descripción
 
-In the project directory, you can run:
+<p>Organizador de equipos de trabajo en una organización.</p>
 
-### `npm start`
+## ⭐Elementos principales de la página
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Header con imagen personalizada.
+* Formularios para crear un nuevo colaborador y un nuevo equipo.
+* Visualización de quipos con sus colaboradores y respectivos colores.
+* Footer con imagen personalizada y enlaces de redes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Tecnologías Utilizadas
 
-### `npm test`
+  * React.js
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Página Web Terminada 💯
+![Org](https://github.com/ValenciaTatiana/Org/assets/157426277/e5ef470f-b775-4458-b329-27dca1da958d)
+#
+![Org2](https://github.com/ValenciaTatiana/Org/assets/157426277/d45c20d9-bf91-46a4-bba7-8c64984e9c48)
+#
+![Org3](https://github.com/ValenciaTatiana/Org/assets/157426277/7b1a8ac1-3ac1-4df0-bd73-264574c3476b)
 
-### `npm run build`
+# 📲Página Web Responsive💻
+![Org respon](https://github.com/ValenciaTatiana/Org/assets/157426277/e686ec2f-e40c-4c23-8fc4-b3af331c98d9)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-# Org
+# Certificados🏅
+_Certificados entregado por Alura, por la finalización de los cursos **REACT: DESARROLLANDO CONJAVASCRIPT y REACT: COMO LOS COMPONENTESFUNCIONAN - Proyecto: Org**._
+![React 1](https://github.com/ValenciaTatiana/Org/assets/157426277/d4ffec03-527a-44ed-b7e2-6398952defcf)
+![React 2](https://github.com/ValenciaTatiana/Org/assets/157426277/ba9aa932-3ea0-406a-b557-098bcea0c3bb)
